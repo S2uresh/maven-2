@@ -18,12 +18,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     sonar-scanner \
-  -Dsonar.projectKey=mvn-project \
-  -Dsonar.sources=. \
-  -Dsonar.host.url=http://13.232.190.126:9000 \
-  -Dsonar.login=1f4ddbf08cb37f76cac2cc9c08f3692bf2834573
-  </properties>
-
+  -
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
